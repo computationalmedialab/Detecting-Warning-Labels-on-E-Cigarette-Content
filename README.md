@@ -11,3 +11,6 @@ Detecting Warning Labels on E-Cigarette Content Across Social Media Platforms
 8. The developer token has to be generated every 60 minutes because it will expire in every 60 minutes.
 9. We now get the folder ID from box.
 10. On the Oracle Instance we write a script to download all the videos. (`get_videos.py`)
+# Screenshots
+1. The script takes screenshots every one second until the max time which is 79 seconds.
+
