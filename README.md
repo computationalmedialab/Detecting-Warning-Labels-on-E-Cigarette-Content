@@ -13,4 +13,8 @@ Detecting Warning Labels on E-Cigarette Content Across Social Media Platforms
 10. On the Oracle Instance we write a script to download all the videos. (`get_videos.py`)
 # Screenshots
 1. The script takes screenshots every one second until the max time which is 79 seconds.
+# Oracle Vision
+1. Takes the screenshots in form of images and turns them into text. (`ocr.py`)
+2. Now we write a script called (`remove_null.py`) that gets rid of the rows containing no text.
+3. We then write a script that gets rid of the duplicate texts inside the output text file called (`remove_textdup.py`)
 
