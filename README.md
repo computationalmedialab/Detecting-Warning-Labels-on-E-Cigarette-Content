@@ -24,4 +24,9 @@ Detecting Warning Labels on E-Cigarette Content Across Social Media Platforms
 4. We then get the english text rows by performing the command cat unique_lang_score.csv | grep English > warnings.txt
 # Classifier
 1. We write a classifier script to check if each text row satisfies the classifier conditions. (`classifier.py`)
+# Conditions
+1. We write a script that checks if the text row belongs to condition 1 or condition 2. (`parser.py`)
+2. We write a script that counts how many is condition 1 and how many is condition 2. (`count.py`)
+3. We write a script that checks how many of the conditions overlap. (`overlap.py`)
+
 
