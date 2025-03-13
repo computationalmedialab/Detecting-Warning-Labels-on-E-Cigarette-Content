@@ -34,7 +34,10 @@ pip install opencv-python pandas numpy pytesseract langdetect requests boxsdk
 1. We write a program that can take all the text extracted from the images in the csv file and detect their language and output a file called, extracted_lang_output.txt. (`lang_detector.py`)
 2. In the next step, in the script called (`lang_score.py`), we parse the json formatted text file (`extracted_lang_output.txt`) and we set a threshold of 90% and say that if the language detected score is higher than 90% then consider it a valid prediction and write it to a csv file (`language_score.csv`) alongside its language name and the text.
 3. We then remove the duplicates with a script called (`remove_duplicates.py`)
-4. We then get the english text rows by performing the command cat unique_lang_score.csv | grep English > warnings.txt
+4. We then get the english text rows by performing the command
+```bash
+cat unique_lang_score.csv | grep English > warnings.txt
+```
 # Classifier
 1. We write a classifier script to check if each text row satisfies the classifier conditions. (`classifier.py`)
 # Conditions
