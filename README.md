@@ -25,7 +25,7 @@ pip install opencv-python pandas numpy pytesseract langdetect requests boxsdk
 9. We now get the folder ID from box.
 10. On the Oracle Instance we write a script to download all the videos. (`get_videos.py`)
 # Screenshots
-1. The script takes screenshots every one second until the max time which is 79 seconds.
+  The script takes screenshots every one second until the max time which is 79 seconds.
 # Oracle Vision
 1. Takes the screenshots in form of images and turns them into text. (`ocr.py`)
 2. Now we write a script called (`remove_null.py`) that gets rid of the rows containing no text.
@@ -39,7 +39,7 @@ pip install opencv-python pandas numpy pytesseract langdetect requests boxsdk
 cat unique_lang_score.csv | grep English > warnings.txt
 ```
 # Classifier
-1. We write a classifier script to check if each text row satisfies the classifier conditions. (`classifier.py`)
+  We write a classifier script to check if each text row satisfies the classifier conditions. (`classifier.py`)
 # Conditions
 1. We write a script that checks if the text row belongs to condition 1 or condition 2. (`parser.py`)
 2. We write a script that counts how many is condition 1 and how many is condition 2. (`count.py`)
