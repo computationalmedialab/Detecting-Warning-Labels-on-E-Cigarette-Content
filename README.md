@@ -1,5 +1,5 @@
 # Detecting-Warning-Labels-on-E-Cigarette-Content
-Detecting Warning Labels on E-Cigarette Content Across Social Media Platforms
+#### Detecting Warning Labels on E-Cigarette Content Across Social Media Platforms
 # Introduction
 This repository contains scripts for collecting data from TikTok and YouTube, processing them, and feeding them to a rule-based classifier. The pipeline consists of multiple steps, including video downloading, screenshot extraction, OCR processing, language detection, classification, and statistical analysis.
 # Technical requirements
