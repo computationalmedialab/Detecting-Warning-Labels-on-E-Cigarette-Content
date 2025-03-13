@@ -12,7 +12,7 @@ Basic command-line knowledge
 Install the following Python libraries before running the scripts:
 ```bash
 pip install opencv-python pandas numpy pytesseract langdetect requests boxsdk
-
+```
 # Box Download
 1. First we need to sign up for a free version of box. 
 2. We get to the developer console and then we access the APP console then we click create new app. 
