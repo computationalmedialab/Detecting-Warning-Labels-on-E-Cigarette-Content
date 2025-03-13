@@ -28,5 +28,10 @@ Detecting Warning Labels on E-Cigarette Content Across Social Media Platforms
 1. We write a script that checks if the text row belongs to condition 1 or condition 2. (`parser.py`)
 2. We write a script that counts how many is condition 1 and how many is condition 2. (`count.py`)
 3. We write a script that checks how many of the conditions overlap. (`overlap.py`)
+# Video Length
+1. We write a script that calculates the length of all videos. (`All_video_length.py`)
+2. We write a script that normalizes (format: minutes and seconds) the durations of the videos. (`handle.py`) 
+3. We write a script that calculates the average of all video lengths. (`average.py`)
+4. We write a script that claculates the standard deviation of the video lengths. (`std.py`) 
 
 
