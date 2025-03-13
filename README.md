@@ -4,10 +4,10 @@ Detecting Warning Labels on E-Cigarette Content Across Social Media Platforms
 This repository contains scripts for collecting data from TikTok and YouTube, processing them, and feeding them to a rule-based classifier. The pipeline consists of multiple steps, including video downloading, screenshot extraction, OCR processing, language detection, classification, and statistical analysis.
 # Technical requirements
 Before proceeding, ensure that you have the following installed:
-Python 3.x
-An Oracle cloud instance
-A Box account with API access
-Basic command-line knowledge
+- Python 3.x
+- An Oracle cloud instance
+- A Box account with API access
+- Basic command-line knowledge
 # Required Dependencies
 Install the following Python libraries before running the scripts:
 ```bash
