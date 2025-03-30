@@ -13,6 +13,11 @@ Install the following Python libraries before running the scripts:
 ```bash
 pip install opencv-python pandas numpy pytesseract langdetect requests boxsdk
 ```
+# Warning Label Detection Workflow
+  The figure illustrates the framework for collecting and extracting text from YouTube and TikTok videos, detailing the language detection process and the development of a rule-based classifier for warning labels.
+  
+  ![Alt Text](Figures/Figure1.png)
+
 # Box Download
 1. First we need to sign up for a free version of box. 
 2. We get to the developer console and then we access the APP console then we click create new app. 
