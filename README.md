@@ -41,7 +41,9 @@ cat unique_lang_score.csv | grep English > warnings.txt
 # Classifier
   We write a classifier script to check if each text row satisfies the classifier conditions. (`classifier.py`)
 # Condition Example Images
+  An example YouTube post which contains a warning label that meets Condition 1 
   ![Alt Text](Figures/Figure3.png)
+  
 # Conditions
 1. We write a script that checks if the text row belongs to condition 1 or condition 2. (`parser.py`)
 2. We write a script that counts how many is condition 1 and how many is condition 2. (`count.py`)
