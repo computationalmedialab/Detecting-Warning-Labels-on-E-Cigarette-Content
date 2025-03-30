@@ -41,7 +41,8 @@ cat unique_lang_score.csv | grep English > warnings.txt
 # Classifier
   We write a classifier script to check if each text row satisfies the classifier conditions. (`classifier.py`)
 # Condition Example Images
-  An example YouTube post which contains a warning label that meets Condition 1 
+  An example YouTube post which contains a warning label that meets Condition 1
+  
   ![Alt Text](Figures/Figure3.png)
   
 # Conditions
