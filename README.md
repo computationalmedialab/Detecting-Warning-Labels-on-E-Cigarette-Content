@@ -44,6 +44,18 @@ cat unique_lang_score.csv | grep English > warnings.txt
   An example YouTube post which contains a warning label that meets Condition 1
   
   ![Alt Text](Figures/Figure3.png)
+
+  Warning Label from TikTok that fulfills Condition 1 and 2
+
+  ![Alt Text](Figures/Figure4.png)
+
+  Example of YouTube post without a warning label
+
+  ![Alt Text](Figures/Figure5.png)
+
+  Example of Warning Label from YouTube that fulfills Condition 1 and 2 (brand names blurred for anonymity)
+  
+  ![Alt Text](Figures/Figure6.png)
   
 # Conditions
 1. We write a script that checks if the text row belongs to condition 1 or condition 2. (`parser.py`)
