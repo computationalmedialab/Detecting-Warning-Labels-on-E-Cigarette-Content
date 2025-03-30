@@ -29,6 +29,11 @@ pip install opencv-python pandas numpy pytesseract langdetect requests boxsdk
 8. The developer token has to be generated every 60 minutes because it will expire in every 60 minutes.
 9. We now get the folder ID from box.
 10. On the Oracle Instance we write a script to download all the videos. (`get_videos.py`)
+# Image Processing
+  Image processing procedures for each social media platform
+
+  ![Alt Text](Figures/Figure2.png)
+
 # Screenshots
   The script takes screenshots every one second until the max time which is 79 seconds.
 # Oracle Vision
