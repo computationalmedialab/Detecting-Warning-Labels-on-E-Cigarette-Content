@@ -59,10 +59,6 @@ cat unique_lang_score.csv | grep English > warnings.txt
 
   ![Alt Text](Figures/Figure4.png)
 
-  Example of YouTube post without a warning label
-
-  ![Alt Text](Figures/Figure5.png)
-
   Example of Warning Label from YouTube that fulfills Condition 1 and 2 (brand names blurred for anonymity)
   
   ![Alt Text](Figures/Figure6.png)
