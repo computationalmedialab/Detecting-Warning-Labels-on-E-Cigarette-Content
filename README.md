@@ -61,7 +61,7 @@ cat unique_lang_score.csv | grep English > warnings.txt
 
   Example of Warning Label from YouTube that fulfills Condition 1 and 2 (brand names blurred for anonymity)
   
-  ![Alt Text](Figures/Figure6.png)
+  ![Alt Text](Figures/Figure5.png)
   
 # Conditions
 1. We write a script that checks if the text row belongs to condition 1 or condition 2. (`parser.py`)
